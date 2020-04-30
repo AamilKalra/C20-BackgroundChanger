@@ -13,7 +13,7 @@ function setup(){
 
 
 function draw(){
-  background(mouseX,mouseY,mouseX,mouseY,mouseX,mouseY);
+  background(mouseX,mouseY,mouseX*mouseY);
   ellipseMode(RADIUS);
   fill("red");
   ellipse(mouseX,mouseY,50); 
